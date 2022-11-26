@@ -5,7 +5,7 @@
 #include <raylib.h>
 
 typedef enum{
-    MAIN,
+    SORT,
     EXIT
 }CurrentScreen;
 

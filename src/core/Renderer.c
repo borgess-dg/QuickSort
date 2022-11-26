@@ -1,17 +1,15 @@
 #include "../include/core/Renderer.h"
+#include "../include/screens/Sort.h"
 
 void Renderer(void){
-    CurrentScreen Screen = MAIN;
-    while(Screen != EXIT){
-        switch (Screen)
+    CurrentScreen ScreenID = SORT;
+    while(ScreenID != EXIT){
+        switch (ScreenID)
         {
-        case MAIN:
-            printf("Hello");
+        case SORT:
+            ScreenID = SortScreen();
             break;
         case EXIT:
-            break;
-        default:
-            printf("Hello");
             break;
         }
     }
