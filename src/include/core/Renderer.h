@@ -1,7 +1,7 @@
 #ifndef RENDERER_H
 #define RENDERER_H
 
-#include <stdio.h>
+#include <stdlib.h>
 #include <raylib.h>
 
 typedef enum{

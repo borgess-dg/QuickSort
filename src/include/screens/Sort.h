@@ -6,6 +6,6 @@
 typedef CurrentScreen Screen;
 
 //Quick Sort screen.
-Screen SortScreen();
+Screen SortScreen(char* inputContent);
 
 #endif

@@ -4,6 +4,6 @@
 int main(void){
     App((WinProperties){500, 500, "Hello, World!", 60});
     Run();
-    
+    CloseWindow();
     return 0;
 }
